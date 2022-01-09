@@ -1,0 +1,9 @@
+* {
+  background-color: #b7c3cc;
+}
+
+/* Guitar chords */
+
+.chord svg {
+  width: 15em;
+}

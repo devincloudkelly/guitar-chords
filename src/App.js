@@ -27,10 +27,12 @@ function App() {
   return (
     <div className="App">
       Guitar Chords
-      <GuitarChord />
-      <GuitarChord />
-      <GuitarChord />
-      <GuitarChord />
+      <div className="chord">
+        <GuitarChord className="chord" />
+        <GuitarChord />
+        <GuitarChord />
+        <GuitarChord />
+      </div>
     </div>
   );
 }
